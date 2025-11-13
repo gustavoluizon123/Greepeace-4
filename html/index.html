@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Greenpeace</title>
+    <meta name="description" content="Greenpeace - divulgamos ameaças ambientais.">
+    <meta name="author" content="Greenpeace">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="../img/Greenpeace.jpg" type="image/x-icon">
+</head>
+<body>
+    <div class="container"> 
+        <header role="banner">
+            <div>
+                <h1>Greenpeace</h1>
+                <p class="tagline">Missão: divulgar ameaças nos ecossistemas</p>
+            </div>
+
+            <div class="theme-control" aria-hidden="false">
+                <button id="themeToggle" 
+                class="theme-toggle" 
+                type="button" 
+                aria-pressed="false" 
+                aria-label="Alterar tema do site">
+                    🌓
+                    <span class="vis">Alternar Tema</span>
+                    <span aria-hidden="true" class="theme-icon">🌓</span>
+                </button>
+                <span id="themeStatus" class="sr-only" aria-live="polite"></span>
+            </div>
+            <nav aria-label="Menu principal">
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="projetos.html">Projetos</a></li>
+                    <li><a href="cadastro.html">Cadastre-se</a></li>
+                </ul>
+            </nav>
+            
+        </header>
+
+
+        <main role="main">
+            <section class="hero" aria-labelledby="hero-title">
+                <div>
+                    <h2 id="hero-title">Construindo impacto, juntos</h2>
+                    <p>Trabalhamos com educação, saúde e assistência social — transparência, participação e resultados mensuráveis.</p>
+                    <p><a href="projetos.html">Conheça nossos projetos</a> • <a href="cadastro.html">Seja voluntário</a></p>
+                </div>
+                <aside aria-labelledby="contato-title">
+                    <h3 id="contato-title">Contato rápido</h3>
+                    <address>
+                        <strong>Greenpeace</strong><br>
+                        Rua Bresser, 200 — São Paulo/Sp <br>
+                        <a href="tel:+5511982346571">(11) 98234-6571</a><br>
+                        <a href="mailto:contato@ongexemplo.org">contato@greenpeace.org</a>
+                    </address>
+                </aside>
+            </section>
+
+
+            <section aria-labelledby="impacto" class="cards">
+                <article class="card" aria-labelledby="i1">
+                    <h4 id="i1">Nossa proposta</h4>
+                    <p>Educação comunitária.</p>
+                    <img src="../img/proposta.jpg" alt="Atividade educacional" loading="lazy">
+                </article>
+
+
+                <article class="card" aria-labelledby="i2">
+                    <h4 id="i2">Transparência</h4>
+                    <p>Relatórios públicos e prestação de contas disponíveis para doadores.</p>
+                    <img src="../img/transparencia.jpg" alt="Relatórios de transparência" loading="lazy">
+                </article>
+
+
+                <article class="card" aria-labelledby="i3">
+                    <h4 id="i3">Voluntariado</h4>
+                    <p>Portal de oportunidades e certificados digitais de participação.</p>
+                    <img src="../img/voluntariado.jpg" alt="Voluntários trabalhando" loading="lazy">
+                </article>
+            </section>
+
+
+            <section aria-labelledby="news">
+                <h3 id="news">Últimas notícias</h3>
+                <article>
+                    <h4>Projeto para a conscientização ambiental</h4>
+                    <p>Iniciamos novas turmas em bairros parceiros — <a href="projetos.html">saiba mais</a>.</p>
+                </article>
+            </section>
+        </main>
+
+
+        <footer role="contentinfo">
+            <p>© <span id="ano"></span> Greenpeace — <a href="projetos.html">Projetos</a> • <a href="cadastro.html">Participe</a></p>
+        </footer>
+    </div>
+
+
+    <script src="../js/script.js" defer></script>
+</body>
+</html>

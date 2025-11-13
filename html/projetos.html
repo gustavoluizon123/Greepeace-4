@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Projetos</title>
+    <meta name="description" content="Página de projetos e oportunidades de voluntariado da ONG Exemplo.">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="../img/Greenpeace.jpg" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Projetos</h1>
+            <div class="theme-control" aria-hidden="false">
+                <button id="themeToggle" 
+                class="theme-toggle" 
+                type="button" 
+                aria-pressed="false" 
+                aria-label="Alterar tema do site">
+                    🌓
+                    <span class="vis">Alternar Tema</span>
+                    <span aria-hidden="true" class="theme-icon">🌓</span>
+                </button>
+                <span id="themeStatus" class="sr-only" aria-live="polite"></span>
+            </div>
+            <nav aria-label="Navegação projetos">
+                <a href="index.html">Início</a> |
+                <a href="cadastro.html">Cadastre-se</a>
+            </nav>
+        </header>
+
+        <main>
+            <section aria-labelledby="lista-projetos">
+                <h2 id="lista-projetos">Projetos ativos</h2>
+
+
+                <article aria-labelledby="p1">
+                    <h3 id="p1">Respeitem a Amazônia</h3>
+                    <p>Objetivo: ENQUANTO HOUVER AMEAÇAS CONTRA A AMAZÔNIA, NOSSO TRABALHO NÃO PODE PARAR.</p>
+                    <img src="../img/amazonia.jpg" alt="salve a amazonia" loading="lazy">
+                    <p><a href="#oportunidades-p1">Ver oportunidades de voluntariado</a></p>
+                </article>
+
+                <article aria-labelledby="p2">
+                    <h3 id="p2">Expedições</h3>
+                    <p>Exploração de petróleo na Foz do Amazonas.</p>
+                    <img src="../img/expedicao.jpg" alt="Cestas básicas" loading="lazy">
+                    <p><a href="#oportunidades-p2">Ver oportunidades de voluntariado</a></p>
+                </article>
+
+            </section>
+
+            <section aria-labelledby="voluntariado">
+            <h2 id="voluntariado">Oportunidades de voluntariado</h2>
+            <ul>
+                <li id="oportunidades-p1">Professor voluntário — 4h/sem — <a href="cadastro.html">inscreva-se</a></li>
+                <li id="oportunidades-p2">Ajudar nas expedições — 3h/sem — <a href="cadastro.html">inscreva-se</a></li>
+            </ul>
+            </section>
+
+
+            <section aria-labelledby="doacao">
+                <h2 id="doacao">Como doar</h2>
+                <p>Doe online usando cartão, PIX ou transferência. Relatórios de aplicação são publicados trimestralmente.</p>
+                <form aria-label="Doação rápida" action="#" onsubmit="alert('Simulação: botão de doação clicado');return false;">
+                    <fieldset>
+                        <legend>Doação rápida</legend>
+                        <label for="valor">Valor (R$)</label>
+                        <input id="valor" name="valor" type="number" min="1" step="0.01" required>
+                        <button type="submit">Doar</button>
+                    </fieldset>
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <p><a href="index.html">Voltar ao início</a></p>
+        </footer>
+    </div>
+
+    <script src="../js/script.js" defer></script>
+</body>
+</html>
