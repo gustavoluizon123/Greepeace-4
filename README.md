@@ -1,4 +1,4 @@
-# Greenpeace (Projeto - ONG fictícia)
+# Greenpeace 
 
 [![build-status](https://img.shields.io/badge/build-passing-brightgreen.svg)](https://example.com)
 [![wcag](https://img.shields.io/badge/WCAG-2.1%20AA-blue.svg)](https://www.w3.org/TR/WCAG21/)
